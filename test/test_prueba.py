@@ -12,6 +12,7 @@ def driver():
     driver.maximize_window()
     yield driver
     driver.quit()
+    
     #Prueba automatizada 1: Si no deja agregar una tarea vacia
 def test_add_task(driver):
  
